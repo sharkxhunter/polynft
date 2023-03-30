@@ -11,6 +11,7 @@ async function main() {
     console.log("Contract deployed to address:", myNFT.address)
 }
 
+//main function
 main()
     .then(() => process.exit(0))
     .catch((error) => {
