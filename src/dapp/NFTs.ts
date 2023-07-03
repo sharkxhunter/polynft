@@ -303,7 +303,4 @@ export function addNFT(name, description, image_https, image_ipfs, tokenId) {
     tokenContract.methods.owner().call().then(result => {
         console.log("MINT RESULT!", result);
     });
-
-
-
 }
